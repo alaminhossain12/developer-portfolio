@@ -46,7 +46,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -67,6 +67,11 @@ section {
   color: white;
   font-weight: 700;
   border-radius: 10px;
+}
+
+.top-banner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
 .dream-big {
